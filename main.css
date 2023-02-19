@@ -91,7 +91,20 @@ button:hover{
     background: hsl(0, 80%, 86%);
 }
 
-@media(max-width:2560px){
+@media screen and (min-width:1024px){
+    button{
+        right:25%;
+    }
+    .section1{
+        height: 100vh;
+    }
+
+    .base img{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:2560px){
     button{
         right:55%;
     }
