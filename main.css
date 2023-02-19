@@ -90,3 +90,15 @@ button {
 button:hover{
     background: hsl(0, 80%, 86%);
 }
+
+@media(max-width:2560px){
+    button{
+        right:55%;
+    }
+
+    input{
+        width: 35%;
+    }
+
+    
+}
