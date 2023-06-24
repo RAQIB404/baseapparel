@@ -1,45 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/long-coat.png">
-    <link rel="stylesheet" href="main.css">
-    <title>Base apparel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css">  
+  <title>Base Apparel</title>
+  <link rel="icon" href="images/long-coat.png">
 </head>
-
 <body>
-    <div class="container">
-        <div class="section1">
-            <div class="base">
-                <img src="images/logo.svg" alt="">
-            </div>
-            <div class="heading">
-                <h1><span class="we"> WE'RE </span><br>
-                    COMING <br>
-                    SOON</h1>
-            </div>
-            <div class="para">
-                <p>Hello fellow shoppers! We're currently building our new <br>
-                    fashion store. Add your email below to stay up-to-date with <br>
-                    announcements and our launch deals.</p>
-            </div>
-            <div class="form-wrap">
-                <form class="form">
-                    <input id="email" type="mail" placeholder="Email Address">
-                    <button type="submit"> <img src="images/icon-arrow.svg" alt=""></button>
-                </form>
-            </div>
-        </div>
-        <div class="section2">
-            <img src="images/hero-desktop.jpg" alt="">
-        </div>
+    <header><img src="./images/logo.svg" alt="logo"></header>
+    <section class="container">
+    <div class="left">
+      <h1>We're <br/><span>coming<br/> soon</span></h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form action="#">
+        <label for="Email"></label>
+          <input name="Email" id="Email" value="" type="email" placeholder="Email Address">
+          <img src="./images/icon-error.svg" class="error-icon" alt="">
+          <button type="submit"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+      </form>
     </div>
+    <div class="right"></div>
+  </section>
+ 
+  <script src="./main.js"></script>
 </body>
-
 </html>
